@@ -1,0 +1,169 @@
+@font-face {
+  font-family: manaspace;
+  src: url(manaspc.ttf);
+}
+
+@font-face {
+  font-family: Pixelony;
+  src: url(Pixelony.ttf);
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+body {
+  font-family: "Pixelony";
+}
+
+h1 {
+  font-family: "Montserrat";
+
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Pixelony";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navbarstyle {
+  padding: 0 0 3.5rem;
+}
+
+.nav-item {
+  padding: 0 13px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 5% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 52%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 35%;
+}
+
+/* Feature Section */
+#features {
+  padding: 7% 12%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* Icon  */
+.fa-gg-circle {
+  size: 7x;
+}
+.fa-gg-circle:hover {
+  color: #66bfbf;
+}
+
+/* text */
+.text2 {
+  text-align: center;
+  padding: 2rem 3%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 16%;
+  border-radius: 100%;
+  margin: 10px;
+  padding-right: 15px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 0 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 12%;
+}
+
+/* Pricing Card */
+.card {
+  height: 100%;
+}
+
+#pricing {
+  padding: 80px;
+  text-align: center;
+}
+
+.card-col {
+  padding: 3% 3%;
+}
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    width: 35%;
+    transform: rotate(0);
+  }
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 8% 15%;
+}
+.icon-padding {
+  padding-left: 14%;
+}
+
+#footer {
+  text-align: center;
+  padding: 4%;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
